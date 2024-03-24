@@ -3,8 +3,8 @@
 
 #install nginx if it's not installed
 if ! command -v nginx &> /dev/null; then
-	sudo apt-get update
-    	sudo apt-get -y install nginx
+        sudo apt-get update
+        sudo apt-get -y install nginx
 fi
 
 # Create necessary directories if they don't exist
